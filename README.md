@@ -36,7 +36,7 @@ You can set its left and right trigger views, which are the views revealed when 
 ```
 UILabel *l = [[UILabel alloc] init];
 l.text = @"left";
-cell.leftTriggerView = l;
+cell.leftTriggerView = 555;
 
 UILabel *r = [[UILabel alloc] init];
 r.text = @"right";
